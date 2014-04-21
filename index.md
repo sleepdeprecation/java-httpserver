@@ -43,7 +43,7 @@ Okay, so there are probably some frameworks that look easier and don't have the 
 
 ## Why is this different from $x?
 
-It probably isn't all that different from `$x`, which is partially the point. While `java-httpserver`'s original purpose was to [Storyteller](http://storytellersoftware.com) a nice HTTP server, we expanded the scope to make a nice framework that anybody could use with minimal fuss.
+It probably isn't all that different from `$x`, which is partially the point. While `java-httpserver`'s original purpose was to give [Storyteller](http://storytellersoftware.com) a nice HTTP server, we expanded the scope to make a nice framework that anybody could use with minimal fuss.
 
 The biggest difference from most microframeworks is the separation of separate sub-routes into distinct `HTTPHandlers` instead of having one master router or routing table, or putting everything in main. The reason we chose to do this is that it helps keep methods that go together ... together. Java and REST are both noun-oriented, which made this separation logical to us.
 
